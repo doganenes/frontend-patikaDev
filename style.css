@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(224, 201, 169);
+  font-size: 1.5em;
+}
+h1{
+    color: #6B2A10;
+    font-style: italic;
+}
+
+.para1{
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.upperText {
+  position: absolute;
+  top: 150px;
+}
+
+.upperText p {
+  display: inline;
+}
+
+.upperText p .upperSpan {
+  color: #98431F;
+  text-decoration: underline black;
+}
+
+.text h2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #96360C;
+    
+}
+
