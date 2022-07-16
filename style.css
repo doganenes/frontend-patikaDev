@@ -25,7 +25,9 @@ h1{
   align-items: center;
   margin-top: 150px;
 }
-
+.recipe{
+  margin-top: 15px;
+}
 .upperText {
   position: absolute;
   top: 150px;
@@ -48,3 +50,18 @@ h1{
     
 }
 
+.lastPara{
+position: absolute;
+margin-top: 30em;
+margin-left: 30em;
+}
+
+@media screen and (max-width:1200px){
+  .upperText{
+    position: absolute;
+    margin-top: 5em;
+  }
+  .recipe{
+    margin-top: 15px;
+  }
+}
