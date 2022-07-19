@@ -13,12 +13,15 @@ body{
 
 }
 .container{
-    width: 80%;
+    width:100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header{
-    display: flex;
+
     justify-content: space-between;
     position: absolute;
     left: 0;
@@ -28,8 +31,16 @@ header{
     display: flex;
     align-items: center;
 }
-header ul{
 
+.logo{
+    font-size: 25px;
+    color: #333;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+header ul{
+    list-style: none;
 }
 header ul li{
 display: inline-block;
@@ -39,7 +50,10 @@ margin-left: 15px;
 
 .content{
     margin-top: 100px;
- 
+}
+.content h1{
+    color: red;
+    margin-bottom: 10px;
 }
 
 .content p{
