@@ -179,4 +179,13 @@ footer {
         margin-left: 10px;
         margin-right: 10px;
     }
+    .beta{
+        color: #bebebe;
+        text-transform: uppercase;
+        position: absolute;
+        display: inline;
+        font-size: 16px;
+        left: 70%;
+        top: 18%;
+    }
 }
