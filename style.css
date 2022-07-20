@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Lato&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+button:active {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+}
+
+/* google name start */
+.googleName {
+    font-family: "Cormorant SC", serif;
+    font-size: 3em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.googleName1 {
+    color: #3266d4;
+}
+
+.googleName2 {
+    color: #e31c06;
+}
+
+.googleName3 {
+    color: #f3e910;
+}
+
+.googleName4 {
+    color: #235eca;
+}
+
+.googleName5 {
+    color: #4dcf0b;
+}
+
+.googleName6 {
+    color: #ee200b;
+}
+
+.googleName7 {
+    color: #2a5ec3;
+}
+
+/* google name end */
+
+.beta {
+    color: #bebebe;
+    text-transform: uppercase;
+    position: absolute;
+    display: inline;
+    font-size: 16px;
+    left: 56.5%;
+    top: 18%;
+}
+
+/*cols start */
+
+.colsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    height: 100px;
+}
+
+.colsContainer .col1 {
+    flex: 1;
+    flex-direction: row;
+    background-color: #7ee5da;
+}
+
+.colsContainer .col2 {
+    flex: 2;
+    background-color: #70ccc2;
+}
+
+.colsContainer .col3 {
+    flex: 1;
+    background-color: #62b3aa;
+}
+
+.colsInput {
+    display: inline;
+    width: 180px;
+    border: 0.5px solid black;
+    margin-bottom: 2px;
+}
+
+.subsBtn {
+    font-size: 14px;
+}
+
+.archiveSpan {
+    font-size: 12px;
+    margin-left: 2px;
+}
+
+/* cols end */
+
+.content {
+    background-color: #eeeeee;
+    margin-top: 20px;
+    height: auto;
+}
+
+.content .search {
+    margin-top: 10px;
+}
+
+.content .textInput {
+    width: 400px;
+    margin-top: 10px;
+    border: 0.5px solid black;
+    margin-bottom: 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 42%;
+}
+
+
+@media (max-width:800px) {
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+    }
+
+    .colsContainer {
+        height: 120px;
+    }
+
+    .col1 {
+        flex: 1;
+    }
+
+    .col2 {
+        flex: 2;
+    }
+
+    .col3 {
+        flex: 1;
+
+    }
+
+    .colsInput {
+        margin-top: 10px;
+        width: 120px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
