@@ -19,6 +19,7 @@ nav .navLeft {
 
 .navLeft p {
   margin: 10px;
+  cursor: pointer;
 }
 
 nav .navRight {
@@ -26,9 +27,26 @@ nav .navRight {
 }
 
 .navRight p,
-.navRight a,
-.navRight button {
+.navRight a {
   margin: 10px;
+  margin-top: 15px;
+ 
+}
+
+.navRight p,
+.navRight a,
+.navRight .signIn {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.signIn {
+  background-color: #4485f5;
+  color: white;
+  border: 0.5px solid #4485f5;
+  width: 60px;
+  height: 25px;
+  margin-top: 10px;
 }
 
 /*nav end */
@@ -41,6 +59,64 @@ nav .navRight {
   align-items: center;
 }
 
+.logo {
+  display: block;
+  position: absolute;
+  top: 35%;
+}
+
+.textInput {
+  position: absolute;
+  display: block;
+  top: 50%;
+}
+
+.textInput input[type="text"] {
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.textInput i {
+  position: absolute;
+  top: 30%;
+  left: 5px;
+}
+
+.textInput .voice {
+  position: absolute;
+  top:15%;
+  right: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.btns {
+  display: block;
+  position: absolute;
+  top: 57%;
+}
+
+.btn1{
+  color: black;
+  opacity: 0.75;
+  border: .5px solid gray;
+  height: 25px;
+  width: 100px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn2{
+  color: black;
+  opacity: 0.75;
+  border: .5px solid gray;
+  height: 25px;
+  width: 120px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 /*container end*/
 
@@ -69,4 +145,15 @@ footer .footerRight {
 footer .footerRight p {
   display: inline;
   margin: 10px;
+}
+
+@media (max-width:576px) {
+  footer{
+    display: none;
+  }
+
+  .textInput input[type="text"]{
+    width: 350px;
+  }
+ 
 }
