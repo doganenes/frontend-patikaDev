@@ -147,6 +147,8 @@ footer .footerRight p {
   margin: 10px;
 }
 
+/* footer end */
+
 @media (max-width:576px) {
   footer{
     display: none;
