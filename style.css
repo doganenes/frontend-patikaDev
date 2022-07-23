@@ -33,6 +33,18 @@ nav .navRight {
 
 /*nav end */
 
+/*container start*/
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*container end*/
+
+/*footer start */
 footer {
   width: 100vw;
 }
