@@ -1,18 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
 
-.bg-yellow{
-    background-color:  #ffc017;
+.bg-yellow {
+  background-color: #ffc017;
 }
 
-.border-bottom-dark{
-    border-bottom: 1px solid rgba(41,41,41,1);
+.border-bottom-dark {
+  border-bottom: 1px solid rgba(41, 41, 41, 1);
 }
 
-body{
-    font-family: 'PT Serif', serif;
-
+body {
+  font-family: "PT Serif", serif;
 }
 
-.padding-l{
-padding-left: 25px;
-}   
+.padding-l {
+  padding-left: 25px;
+}
+
+.float-right{
+    float: right;
+}
+
+
