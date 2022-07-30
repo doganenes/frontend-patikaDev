@@ -1,6 +1,6 @@
-[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+# Ödev 3
 
-# root değeri dizinin ilk değeri olarak seçilir.
+Dizinin root değeri ilk değeri olarak seçilir.
 
 - İlk değer 7'dir.
 - İkinci değer (5) 7'nin soluna yazılır.
