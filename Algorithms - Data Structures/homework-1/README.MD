@@ -21,7 +21,7 @@
 - average case: O(n^2)
 - worst case: O(n^2)
 
-## 4. sıralı dizinde 18 sayısı için average case:
+## 4. Sıralı dizinde 18 sayısı için average case:
 
 - O(n^2)
 
