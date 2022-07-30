@@ -1,0 +1,29 @@
+@import url('http://fonts.cdnfonts.com/css/billabong');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 54px;
+  background-color: white;
+}
+
+body {
+
+}
+
+.font-logo{
+    font-family: 'Billabong', sans-serif;
+    color: black;
+    opacity: 0.8;
+    width: 102px;
+    height: 30px;
+
+}
+
+.float-right{
+    float: right;
+}
