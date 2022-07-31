@@ -24,3 +24,8 @@ body {
     padding: 2px;
 }
 
+.img-hover:hover{
+  transform: scale(1.2);
+  transition: transform 0.8s;
+}
+
