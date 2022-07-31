@@ -12,17 +12,31 @@ body {
   overflow: hidden;
 }
 
+.container{
+  letter-spacing: 2px;
+  width: 100vw;
+}
+
 .title{
     text-align: center;
     margin-bottom: 10px;
-    font-size: 25px;
+     font-size: 25px;
     font-weight: 900;
 }
 
 .textOne{
-    text-align: center;
+  font-size: 30px;
+}
+.textTwo .timeDiv{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .textOne,.textTwo{
-    font-size: 20px;
+  text-align: center;
+}
+
+.textTwo{
+  font-size: 20px;
 }
