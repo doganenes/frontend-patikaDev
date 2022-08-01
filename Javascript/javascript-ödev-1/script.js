@@ -39,12 +39,8 @@ function showTime() {
   var minutes = date.getMinutes();
   var seconds = date.getSeconds();
 
-  if (hour == 0) {
-    hour == 12;
-  }
-
-  if (hour > 12) {
-    hour = hour - 12;
+  if (hour == 24) {
+    hour == 0;
   }
 
   if (hour < 10) {
