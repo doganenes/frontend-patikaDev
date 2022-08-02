@@ -20,6 +20,64 @@ nav {
 
 }
 
-.float-right{
-    float: right;
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: auto;
+  background-color: #ffff;
+}
+
+.logo{
+font-size: 40px;
+text-decoration: none;
+color: black;
+}
+
+nav ul{
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li{
+  padding: 10px;
+}
+
+nav ul li i{
+  font-size: 20px;
+}
+
+.searchInput{
+height: 30px;
+border-radius: 10px;
+width: 200px;
+margin-top: 20px;
+}
+
+.horizontal{
+  color: #333333;
+  opacity: 0.3;
+}
+
+.fa-search{
+  position: absolute;
+  left: 45%;
+  top: 28px;
+}
+
+input[type="search"]{
+ border: 0.5px solid #333333;
+}
+
+input[type="search"]:focus{
+  border: none;
+}
+
+
+.searchInput::placeholder{
+  position: absolute;
+  left: 95px;
+  top:4px;
+  color: black;
+  opacity: 0.4;
 }

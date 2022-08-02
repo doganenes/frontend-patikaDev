@@ -12,36 +12,51 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- REMIXICON -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Bootstrap Instagram Clone</title>
   </head>
   <body>
     <!-- header start -->
     <header>
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand font-logo" href="#">Instagram</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav float-right">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-            </div>
-          </div>
+      <div class="container">
+        <div class="font-logo">
+          <a href="#" class="logo">Instagram</a>
         </div>
-      </nav>
+        <div class="inputSearch">
+          <input
+            type="search"
+            name=""
+            id=""
+            class="searchInput"
+            placeholder="Ara"
+          />
+          <i class="fas fa-search"></i>
+        </div>
+        <nav>
+          <ul>
+            <li><i class="fa-solid fa-house"></i></li>
+            <li><i class="fa-brands fa-facebook-messenger"></i></li>
+            <li><i class="fa-solid fa-compass"></i></li>
+            <li><i class="ri-heart-line"></i></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+
+    <hr class="horizontal" />
     <!-- header end -->
 
     <!-- container kısmı row olarak içerisinde row-sm-8 ve row-sm-4 olacak şekilde iki alt kısımdan oluşacak. -->
@@ -54,15 +69,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-8">
-          <div class="card">
-            <!-- içeriklerin bulunduğu kart yapısı olacak -->
-          </div>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-        </div>
+        <div class="col-sm-8"></div>
         <div class="col-sm-4">
           <!-- sağda yer alan bölüm -->
         </div>
