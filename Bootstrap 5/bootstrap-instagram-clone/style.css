@@ -6,10 +6,7 @@
   padding: 0;
 }
 /* navbar start */
-nav {
-  height: 54px;
-  background-color: white;
-}
+
 
 .font-logo{
     font-family: 'Billabong', sans-serif;
@@ -17,7 +14,7 @@ nav {
     opacity: 0.8;
     width: 102px;
     height: 30px;
-
+  margin-top: 10px;
 }
 
 .container{
@@ -36,8 +33,10 @@ color: black;
 }
 
 nav{
-margin-top: 5px;
+margin-top: 14px;
 margin-right:200px; 
+height: 54px;
+background-color: white;
 }
 
 nav ul{
@@ -79,9 +78,10 @@ margin-top: 20px;
 
 .fa-search{
   position: absolute;
-  left: 45%;
-  top: 22px;
+  left: 20%;
+  top: 10px;
 }
+
 
 .inputSearch{
   margin-top: -5px;
@@ -111,5 +111,7 @@ input[type="search"]:focus{
 
 .inputGroupStyle{
   margin-left: 180px;
-  width: 250px;
+  width: 15em;
+  height: 2rem;
+ margin-top: 15px;
 }
