@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
 }
-
+/* navbar start */
 nav {
   height: 54px;
   background-color: white;
@@ -28,10 +28,16 @@ nav {
   background-color: #ffff;
 }
 
+
 .logo{
 font-size: 40px;
 text-decoration: none;
 color: black;
+}
+
+nav{
+margin-top: 5px;
+margin-right:200px; 
 }
 
 nav ul{
@@ -46,6 +52,18 @@ nav ul li{
 nav ul li i{
   font-size: 20px;
 }
+
+
+.heart{
+position: relative;
+margin-top: -6px;
+margin-left: -5px;
+}
+
+.ri-heart-line{
+font-size: 25px;
+}
+
 
 .searchInput{
 height: 30px;
@@ -62,7 +80,12 @@ margin-top: 20px;
 .fa-search{
   position: absolute;
   left: 45%;
-  top: 28px;
+  top: 22px;
+}
+
+.inputSearch{
+  margin-top: -5px;
+  margin-left: 300px;
 }
 
 input[type="search"]{
@@ -81,3 +104,5 @@ input[type="search"]:focus{
   color: black;
   opacity: 0.4;
 }
+
+/* navbar end */
