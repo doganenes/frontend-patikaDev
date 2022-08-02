@@ -106,3 +106,10 @@ input[type="search"]:focus{
 }
 
 /* navbar end */
+
+/* input group styling */
+
+.inputGroupStyle{
+  margin-left: 180px;
+  width: 250px;
+}
