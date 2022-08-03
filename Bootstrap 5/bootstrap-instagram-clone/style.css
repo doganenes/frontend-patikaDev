@@ -151,12 +151,13 @@ margin-top: 10px;
   font-weight: 400;
   opacity: 0.8;
   margin-top: 5px;
-  padding-left: 5px;
+ 
 }
 
 .storyImageBox{
   display: inline;
   margin: 10px;
+  padding-top: 10px;
 }
 
 
