@@ -7,6 +7,11 @@
 }
 /* navbar start */
 
+body{
+  height: 1100px;
+  padding: 40px;
+}
+
 header {
   height: 54px;
 }
@@ -32,6 +37,12 @@ header {
   font-size: 40px;
   text-decoration: none;
   color: black;
+  margin-left: 192px;
+}
+
+.logo:hover, i:hover ,.profilePicture{
+
+  color: #4b4b4b;
 }
 
 nav {
@@ -102,26 +113,31 @@ input[type="search"]:focus {
   color: black;
   opacity: 0.4;
 }
+
+.logo, i{
+  cursor: pointer;
+}
 /* navbar end */
 
 /* input group style start */
 
 .inputGroupStyle {
-  margin-left: 180px;
-  width: 15em;
+margin-left: 250px;
+  width: 15vw;
   height: 2rem;
-  margin-top: 15px;
+  margin-top: 20px;
+
 }
 
 /* input group style end */
 
 /* story section start */
-.images{
+.imagesContainer{
   background-color: #fcfcff;
   display: flex;
   height: 15vh;
   box-shadow: 5px 5px 5px 3px rgba(0,0,0,0.35);
-  width: 45vw;
+  width: 40vw;
 }
 
 .images img{
@@ -140,7 +156,7 @@ margin-top: 10px;
 
 .storyImageBox{
   display: inline;
-  margin: 15px;
+  margin: 10px;
 }
 
 

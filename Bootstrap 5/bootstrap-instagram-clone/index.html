@@ -30,13 +30,14 @@
   </head>
   <body>
     <!-- header start -->
-    <header>
+    <header class="fixed-top">
       <div class="container">
         <div class="font-logo">
           <a href="#" class="logo">Instagram</a>
         </div>
+
         <!-- input group start-->
-        <div class="input-group inputGroupStyle position-relative">
+        <div class="input-group inputGroupStyle position-relative d-flex">
           <button class="btn btn-outline-dark" type="button" id="button-addon1">
             <i class="fas fa-search"></i>
           </button>
@@ -57,6 +58,7 @@
             <li class="heart"><i class="ri-heart-line"></i></li>
             <li>
               <img
+                class="profilePicture"
                 src="img/avatar 1.png"
                 width="30px"
                 height="30px"
@@ -67,9 +69,9 @@
           </ul>
         </nav>
       </div>
+      <hr class="horizontal" />
     </header>
 
-    <hr class="horizontal" />
     <!-- header end -->
 
     <!-- container kısmı row olarak içerisinde row-sm-8 ve row-sm-4 olacak şekilde iki alt kısımdan oluşacak. -->
@@ -78,9 +80,11 @@
         <div class="col-sm-8">
           <!-- story section start -->
 
-          <div class="row">
-            <div class="col-sm-12 offset-2 mt-2">
-              <div class="images justify-content-center align-items-center">
+          <div class="row mt-5">
+            <div class="col-sm-12 offset-5 mt-5">
+              <div
+                class="imagesContainer justify-content-center align-items-center"
+              >
                 <div class="storyImageBox1 storyImageBox">
                   <img
                     class="storyImage"
@@ -153,6 +157,9 @@
                 </div>
               </div>
             </div>
+          </div>
+          <div class="row offset-4 mt-2">
+            <div class="col-12"></div>
           </div>
           <!-- story section end -->
           <!-- content start-->
