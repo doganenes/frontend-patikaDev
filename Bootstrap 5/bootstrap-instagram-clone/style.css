@@ -1,4 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/billabong');
+@import url("http://fonts.cdnfonts.com/css/billabong");
 
 * {
   box-sizing: border-box;
@@ -7,17 +7,20 @@
 }
 /* navbar start */
 
+header {
+  height: 54px;
+}
 
-.font-logo{
-    font-family: 'Billabong', sans-serif;
-    color: black;
-    opacity: 0.8;
-    width: 102px;
-    height: 30px;
+.font-logo {
+  font-family: "Billabong", sans-serif;
+  color: black;
+  opacity: 0.8;
+  width: 102px;
+  height: 30px;
   margin-top: 10px;
 }
 
-.container{
+.container {
   display: flex;
   justify-content: space-between;
   width: 100vw;
@@ -25,97 +28,119 @@
   background-color: #ffff;
 }
 
-
-.logo{
-font-size: 40px;
-text-decoration: none;
-color: black;
+.logo {
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
 }
 
-nav{
-margin-top: 14px;
-margin-right:200px; 
-height: 54px;
-background-color: white;
+nav {
+  margin-top: 14px;
+  margin-right: 200px;
+  height: 54px;
+  background-color: white;
 }
 
-nav ul{
+nav ul {
   display: flex;
   list-style-type: none;
 }
 
-nav ul li{
+nav ul li {
   padding: 10px;
 }
 
-nav ul li i{
+nav ul li i {
   font-size: 20px;
 }
 
-
-.heart{
-position: relative;
-margin-top: -6px;
-margin-left: -5px;
+.heart {
+  position: relative;
+  margin-top: -6px;
+  margin-left: -5px;
 }
 
-.ri-heart-line{
-font-size: 25px;
+.ri-heart-line {
+  font-size: 25px;
 }
 
-
-.searchInput{
-height: 30px;
-border-radius: 10px;
-width: 200px;
-margin-top: 20px;
+.searchInput {
+  height: 30px;
+  border-radius: 10px;
+  width: 200px;
+  margin-top: 20px;
 }
 
-.horizontal{
+.horizontal {
   color: #333333;
   opacity: 0.3;
 }
 
-.fa-search{
+.fa-search {
   position: absolute;
   left: 20%;
   top: 10px;
 }
 
-
-.inputSearch{
+.inputSearch {
   margin-top: -5px;
   margin-left: 300px;
 }
 
-input[type="search"]{
- border: 0.5px solid #333333;
+input[type="search"] {
+  border: 0.5px solid #333333;
 }
 
-input[type="search"]:focus{
+input[type="search"]:focus {
   border: none;
 }
 
-
-.searchInput::placeholder{
+.searchInput::placeholder {
   position: absolute;
   left: 95px;
-  top:4px;
+  top: 4px;
   color: black;
   opacity: 0.4;
 }
-.searchInput::placeholder::before{
-  content: url(img/icon.png);
-}
-
-
 /* navbar end */
 
-/* input group styling */
+/* input group style start */
 
-.inputGroupStyle{
+.inputGroupStyle {
   margin-left: 180px;
   width: 15em;
   height: 2rem;
- margin-top: 15px;
+  margin-top: 15px;
 }
+
+/* input group style end */
+
+/* story section start */
+.images{
+  background-color: #fcfcff;
+  display: flex;
+  height: 15vh;
+  box-shadow: 5px 5px 5px 3px rgba(0,0,0,0.35);
+  width: 45vw;
+}
+
+.images img{
+margin-left: 10px;
+margin-top: 10px;
+}
+
+.text{
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.8;
+  margin-top: 5px;
+}
+
+.storyImageBox{
+  display: inline;
+  margin: 15px;
+}
+
+
+/* story section end */
