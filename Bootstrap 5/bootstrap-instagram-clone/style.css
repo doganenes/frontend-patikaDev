@@ -104,6 +104,10 @@ input[type="search"]:focus{
   color: black;
   opacity: 0.4;
 }
+.searchInput::placeholder::before{
+  content: url(img/icon.png);
+}
+
 
 /* navbar end */
 
